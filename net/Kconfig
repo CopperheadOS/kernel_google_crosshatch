@@ -406,6 +406,7 @@ source "net/9p/Kconfig"
 source "net/caif/Kconfig"
 source "net/ceph/Kconfig"
 source "net/nfc/Kconfig"
+source "../../wireguard/src/Kconfig"
 
 config LWTUNNEL
 	bool "Network light weight tunnels"
